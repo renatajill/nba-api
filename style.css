@@ -1,0 +1,129 @@
+body {
+    background-color: #461717;
+    color: #464646;
+    font-size: large;
+    font-family:  Monaco, "Lucida Console", monospace;
+}
+
+.bodybox {
+    background-color: white;
+    padding: 50px;
+    text-align: center;
+    align-items: center;
+    border-bottom: 15px;
+    font-family:  Monaco, "Lucida Console", monospace;
+}
+
+.find-button {
+    margin: 20px;
+}
+
+img {
+    width: 100%;
+}
+
+.header-box {
+    background-color: #461717;
+    width: 100%;
+    height: 10%;
+    align-items: center;
+    text-align: center;
+    color: white;
+    border-bottom: 15px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  table td,
+  table th {
+    border: 1px solid #dddddd;
+    padding: 8px;
+  }
+  
+  table th {
+    background-color: #f9f9f9;
+    font-weight: bold;
+  }
+  
+  table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  table tr:hover {
+    background-color: #eaeaea;
+  }
+
+  
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(pexels.png) ;
+    font-family:  Monaco, "Lucida Console", monospace;
+  }
+  
+  .form {
+    width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #461717;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #461717;
+  }
+  
+  input[type="text"],
+  input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #461717;
+    border-radius: 3px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #461717;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #461717;
+  }
+
+.buttonA {
+    
+        padding: 20px 40px;
+        background-color: #250606;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+      }
+      
+      .go:hover {
+        background-color: #8b0000;
+      }
+      
+      .go:focus,
+      .go:active {
+        outline: none;
+        background-color: #8b0000;
+        box-shadow: 0 0 5px #8b0000;
+      }
